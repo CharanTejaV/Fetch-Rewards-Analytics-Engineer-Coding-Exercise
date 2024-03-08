@@ -16,18 +16,17 @@ This repository contains my submission for the Fetch Rewards Coding Exercise. It
 ## Data Quality Findings
 ***Receipts Dataset***
 - Significant Null Values: Key fields such as finishedDate, purchaseDate, totalSpent, and purchasedItemCount show substantial percentages of null values. This affects the consistency and completeness of the dataset, complicating analyses on purchase behavior and financial metrics.
-- Data Consistency and Accuracy Concerns: Discrepancies between related fields like pointsEarned, bonusPointsEarned, and pointsAwardedDate challenge the integrity of reward point attribution. Notably, the absence of zero values in pointsEarned suggests missing data for transactions where points should have been captured.
+- Data Consistency and Accuracy Concerns: Absence of zero values in pointsEarned suggests missing data for transactions where points should have been captured.
 - Impact on Analysis: These issues hinder accurate analysis of customer loyalty, purchasing behavior, engagement, and the effectiveness of promotional offers.
 
 ***Users Dataset***
-- Redundant Records: More than half of the user records are duplicates, potentially skewing analysis and affecting marketing efficiency.
+- Redundant Records: More than 50% of the user records are duplicates, potentially skewing analysis and affecting marketing efficiency.
 - Missing Information: Null values in signUpSource and state could impact the evaluation of marketing strategies and user segmentation. The dataset indicates a high concentration of users in Wisconsin, pointing to possible regional biases in data collection or user acquisition.
 
 ***Brands Dataset***
 - Category and Brand Identification: A large proportion of records lack topBrand and categoryCode, crucial for brand promotion and category-level analysis. Furthermore, 13% null values in category could obscure brand performance insights.
 - Brand Code Discrepancies: Missing or inconsistent brandCode entries complicate brand identification and performance analysis. Inconsistencies in special characters and case sensitivity between the name and brandCode columns indicate potential challenges in matching and analysis.
-- Overall Impacts on Business
-These data quality issues can significantly affect the reliability of business analytics, including customer behavior analysis, financial forecasting, marketing strategy evaluation, and brand performance analysis. Ensuring data integrity, completeness, and accuracy is paramount for informed decision-making and strategic planning.
+- Overall Impacts on Business: These data quality issues can significantly affect the reliability of business analytics, including customer behavior analysis, financial forecasting, marketing strategy evaluation, and brand performance analysis. Ensuring data integrity, completeness, and accuracy is paramount for informed decision-making and strategic planning.
 
 ### For any questions or further discussion, feel free to reach out. Your insights and feedback are always welcome!
 Charan Teja Vangapandu
