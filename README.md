@@ -7,7 +7,7 @@ This repository contains my submission for the Fetch Rewards Coding Exercise. It
 - *data_quality*: Analysis of data quality issues identified in the provided datasets and suggestions for improvement.
 - *communication*: A mockup communication intended for business stakeholders, addressing the findings and suggesting next steps.
 
-##Tools used
+## Tools used
 - Data Quality Checks - ***Python***
 - SQL Quesries - ***T-SQL***
 - Data Extraction - ***Python***
